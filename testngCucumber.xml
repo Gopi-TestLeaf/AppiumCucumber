@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+	<test thread-count="5" name="Test">
+		<parameter name="deviceName" value="OnePlus"></parameter>
+		<parameter name="udid" value="af041859"></parameter>
+		<parameter name="chromeDriverPort" value="8035"></parameter>
+		<parameter name="mjpegServerPort" value="8036"></parameter>
+		<parameter name="systemPort" value="8037"></parameter>
+		<classes>
+			<class name="runner.RunnerClass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
